@@ -3,7 +3,7 @@ The code for the article "Effective dose window for containing tumor burden unde
 
 Published version:
 
-Preprint version: https://www.biorxiv.org/content/10.1101/2022.03.28.486150v1.abstract
+Preprint version: https://doi.org/10.1101/2022.03.28.486150
 
 
 Figure Names -------------- Relevant code
