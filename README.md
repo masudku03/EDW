@@ -5,12 +5,10 @@ Published version:
 
 Preprint version: https://doi.org/10.1101/2022.03.28.486150
 
-______________________________________________________________________________________________________
+________________________________________________________________
 
 Figure Names -------------- Relevant code
-
-______________________________________________________________________________________________________
-
+________________________________________________________________
 
 fig07, Sfig04 -------------- AT.m
 
@@ -33,8 +31,8 @@ Sfig01 -------------- fitting_patient2.m
 fig03 -------------- fitting_patient6.m, fitting_patient7.m, fitting_patient8.m	
 
 fig04 -------------- BasinOfAttraction.m
+________________________________________________________________
 
-______________________________________________________________________________________________________
 
 
 The scripts "fitting_patient*.m" uses cost function (***Cost.m), likelihood function (ProfLike.m), and Fisher information matrix (MiniFisher.m) from https://github.com/epimath/param-estimation-SIR/tree/master/Matlab.
