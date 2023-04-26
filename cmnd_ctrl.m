@@ -1,6 +1,4 @@
-% To generate the following figures.
-% OptDose_ipt2.fig, OptDose_ipt6.fig, OptDose_ipt7.fig, OptDose_ipt8.fig and control.fig.
-% Please check the value of M with SR_mode.
+%%% Developed by M A Masud (masudku03@gmail.com, ORCID: 0000-0002-8533-7424) 26th April, 2023
 clear, clc 
 T = 4*365;
 nc = 1; %number of controls#######
