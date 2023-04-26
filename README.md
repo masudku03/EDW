@@ -35,6 +35,6 @@ ________________________________________________________________
 
 
 
-The scripts "fitting_patient*.m" uses cost function (***Cost.m), likelihood function (ProfLike.m), and Fisher information matrix (MiniFisher.m) from https://github.com/epimath/param-estimation-SIR/tree/master/Matlab.
+We would like to acknowledge the use of cost function (***Cost.m), likelihood function (ProfLike.m), and Fisher information matrix (MiniFisher.m) from https://github.com/epimath/param-estimation-SIR/tree/master/Matlab in the scripts "fitting_patient*.m". 
 
 All the contents of this repository come under MIT license. Please refer to the "License" file for details. If you use any part of this code, you are encouraged to cite the relevant article mentioned above.
