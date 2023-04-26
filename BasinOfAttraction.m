@@ -1,5 +1,4 @@
-% to generate Separatrix.fig
-% separatrix
+%%% Developed by M A Masud (masudku03@gmail.com, ORCID: 0000-0002-8533-7424) 26th April, 2023
 clc, clear
 PList = [4 5 6 9 10 14 28 30];
 LDH0 = zeros(1,numel(PList));
@@ -17,18 +16,3 @@ ipt = 2;
 
 SPTRX(params(ipt,:),LDH0(ipt),T,u)
 
-%%
-% To create animation
-v = VideoWriter('BofAttraction.mp4','MPEG-4');
-open(v);
-
-    figure
-    params = csvread('fitting.csv',1,1);
-    ipt = 2;
-    for u = 0.85:-0.005:0
-    SPTRX(params(ipt,:),LDH0(ipt),T,u)
-    frame = getframe(gcf);
-    clf
-    writeVideo(v,frame);
-    end
-close(v);
