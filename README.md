@@ -32,4 +32,4 @@ fig04 -------------- BasinOfAttraction.m
 
 The scripts "fitting_patient*.m" uses cost function (***Cost.m), likelihood function (ProfLike.m), and Fisher information matrix (MiniFisher.m) from https://github.com/epimath/param-estimation-SIR/tree/master/Matlab.
 
-All the contents comes under MIT license. If you use any part of this code, you are encouraged to cite the relevant article mentioned above.
+All the contents of this repository come under MIT license. Please refer to the "License" file for details. If you use any part of this code, you are encouraged to cite the relevant article mentioned above.
