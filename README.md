@@ -1,5 +1,5 @@
 # EDW
-The code for the article "Effective dose window for containing tumor burden under tolerable level".
+The code is for the article "Effective dose window for containing tumor burden under tolerable level".
 
 Published version:
 
