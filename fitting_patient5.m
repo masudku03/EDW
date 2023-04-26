@@ -1,4 +1,4 @@
-%%% Developed by M A Masud (masudku03@gmail.com, ORCID: 0000-0002-8533-7424) 26th April, 2023
+%%%
 clc; clear
 PList = [4 5 6 9 10 14 28 30];
 jj = 5;
