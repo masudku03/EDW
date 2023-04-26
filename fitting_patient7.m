@@ -1,4 +1,4 @@
-% fitting: patient 7
+
 clc; clear
 PList = [4 5 6 9 10 14 28 30];
 jj = 7;
