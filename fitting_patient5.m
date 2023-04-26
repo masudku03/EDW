@@ -1,14 +1,14 @@
 % fitting: patient 5
 clc; clear
 PList = [4 5 6 9 10 14 28 30];
-jj = 5;% choose patient ID among 1, 2, 3, ..., 8
-%load data    
-load(sprintf('matData\\p%d_new2.mat',PList(jj)));
+jj = 5;
 
-LDH = LDH';
+LDH = [496;291;421]; 
+time = [0,59,120];
 x0fcn = @(params) LDH(1).*[0.99; 0.01];
 yfcn = @(x,params) (x(:,1)+x(:,2)); 
-params = [params(1) params(3) params(5) params(6)];
+
+params = [0.0957  664.4042    0.0585    1.4909];
 paramnames = {'r','K','\delta','c'}; 
 
 %Parameter Estimation ML

@@ -1,17 +1,17 @@
 % fitting: patient 1
 clc; clear
 PList = [4 5 6 9 10 14 28 30];
-jj = 1;% choose patient ID among 1, 2, 3, ..., 8
-%load data    
-load(sprintf('matData\\p%d_new2.mat',PList(jj)));
+jj = 1;
 
-LDH = LDH';
+LDH = [366;181;598;2285];
+time = [0,91,140,163];
 x0fcn = @(params) LDH(1).*[0.99; 0.01];
 yfcn = @(x,params) (x(:,1)+x(:,2)); 
-params = [params(1) params(3) params(5) params(6)];
+
+params = [0.1285 2.7420e+03 0.1358 1.3955];
 paramnames = {'r','K','\delta','c'}; 
 
-%Parameter Estimation ML
+% Parameter Estimation ML
 [paramestsML, fval] = fminsearch(@(p) fittingCost(time,p,LDH,x0fcn,yfcn),params,optimset('Display','iter','MaxFunEvals',5000,'MaxIter',5000))
 
 %%Re-simulate the model with the final parameter estimates
