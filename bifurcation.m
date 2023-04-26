@@ -1,5 +1,4 @@
-% To generate the bifurcation.fig.
-% the bifurcation diagram
+%%% Developed by M A Masud (masudku03@gmail.com, ORCID: 0000-0002-8533-7424) 26th April, 2023
 clc; clear
 
 rS = 0.02; rR = 0.02; c = 3; a = 0.00; K = 1000; K0 = 500;
