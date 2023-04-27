@@ -42,7 +42,7 @@ for jj = 1:numel(Pindex) % This loop executes for each patient
 %             end
             %Find the TTP
             if any(find(Y>Y(1)))%fix the level according to ResumeLevel
-                TTP(iP,iD) = t(find(Y>Y(1),1)); 
+                TTP(iP,iD) = t(find(Y>Y(1),1));
             else
                 TTP(iP,iD)  = Tmax;
             end
