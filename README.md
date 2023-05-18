@@ -1,7 +1,7 @@
 # EDW
 The code is for the article "Effective dose window for containing tumor burden under tolerable level".
 
-Published version:
+Published version: https://doi.org/10.1038/s41540-023-00279-4
 
 Preprint version: https://doi.org/10.1101/2022.03.28.486150
 
