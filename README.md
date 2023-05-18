@@ -34,6 +34,7 @@ fig04 -------------- BasinOfAttraction.m
 ________________________________________________________________
 
 
+The longitudinal LDH level data of the eight patients are available in the folder csvData. It worth mention that this data is inherited from https://doi.org/10.3390/cancers13040823. 
 
 We would like to acknowledge the use of Cost function (***Cost.m), Likelihood function (ProfLike.m), and Fisher information matrix (MiniFisher.m) from https://github.com/epimath/param-estimation-SIR/tree/master/Matlab in our scripts "fitting_patient*.m". 
 
