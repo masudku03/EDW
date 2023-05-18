@@ -24,7 +24,7 @@ plot(LDH0(ipt).*[0.8 0.8],AT_DW(1,:),'Color',[0 0.4470 0.7410],'DisplayName','ED
 plot(LDH0(ipt).*[1 1],AT_DW(2,:),'Color',[0 0.4470 0.7410],'HandleVisibility','off','LineWidth',3);
 plot(LDH0(ipt).*[1.2 1.2],AT_DW(3,:),'Color',[0 0.4470 0.7410],'HandleVisibility','off','LineWidth',3);
 xlabel('Tolerable Tumor Volume(K_{tol})'); ylabel('normalized dose'); title(['Patient ',num2str(ipt)]);
-xticks(Kt1); xticklabels({[num2str(0.7),'*K_0'],[],[num2str(0.8),'*K_0'],[num2str(0.9),'*K_0'],['K_0'],[num2str(1.1),'*K_0'],[num2str(1.2),'*K_0']});
+xticks(Kt1); xticklabels({[num2str(0.7),'K_0'],[],[num2str(0.8),'K_0'],[num2str(0.9),'K_0'],['K_0'],[num2str(1.1),'K_0'],[num2str(1.2),'K_0']});
 legend('-DynamicLegend');
 xline(LDH0(ipt)*params(ipt,2)/(params(ipt,4)*LDH0(ipt)),'--','DisplayName','threshold K_{tol}');
 
